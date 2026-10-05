@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://smartwhip-dubai.jvhgroep.chatgpt.site/sitemap.xml
