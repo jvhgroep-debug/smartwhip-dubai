@@ -1,7 +1,7 @@
 from pathlib import Path
 from urllib.parse import quote
 import re
-root=Path(__file__).parent/'dist';origin='https://smartwhip-dubai.jvhgroep.chatgpt.site'
+root=Path(__file__).parent/'dist';origin='https://creamchargersdubai.com'
 areas=[
 ('dubai-marina','Dubai Marina',
  'For cafés and dessert kitchens in Dubai Marina, a compact cylinder can be a practical choice for everyday cream whipping. Send your dispenser model and your expected usage so we can discuss the format before you order.',

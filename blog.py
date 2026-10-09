@@ -2,7 +2,7 @@ from pathlib import Path
 from html import escape
 from urllib.parse import quote
 import re,json
-root=Path(__file__).parent/'dist';origin='https://smartwhip-dubai.jvhgroep.chatgpt.site';slug='blog/cream-charger-delivery-dubai/'
+root=Path(__file__).parent/'dist';origin='https://creamchargersdubai.com';slug='blog/cream-charger-delivery-dubai/'
 def route(l,p=''):return ('/'+l if l!='en' else '')+'/'+p
 D={
 'en':{

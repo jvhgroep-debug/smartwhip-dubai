@@ -16,4 +16,4 @@ GitHub is the source of truth for this exported website. Preserve existing URLs 
 
 The Python generators are included for reference. `python build_all.py` regenerates the website using Python 3 standard-library modules. Generated HTML is committed for build-free deployment.
 
-Current public site: https://smartwhip-dubai.jvhgroep.chatgpt.site
+Current public site: https://creamchargersdubai.com

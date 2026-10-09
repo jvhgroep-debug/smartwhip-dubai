@@ -3,7 +3,7 @@ from html.parser import HTMLParser
 from html import escape
 from urllib.parse import quote,urlparse,parse_qs
 import json,re
-root=Path(__file__).parent/'dist';origin='https://smartwhip-dubai.jvhgroep.chatgpt.site'
+root=Path(__file__).parent/'dist';origin='https://creamchargersdubai.com'
 rows='''ABOUT|OVER ONS|À PROPOS
 PRODUCTS|PRODUCTEN|PRODUITS
 DELIVERY|BEZORGING|LIVRAISON
