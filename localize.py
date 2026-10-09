@@ -133,7 +133,7 @@ def trans(t,lang):
   if v==name+' for culinary kitchens':return name+(' voor culinaire keukens' if lang=='nl' else ' pour cuisines professionnelles')
   if v=='Order '+name+' ↗':return ('Bestel ' if lang=='nl' else 'Commander ')+name+' ↗'
  return t
-originals=[p for p in root.rglob('*.html') if p.relative_to(root).parts[0] not in ('nl','fr','blog') and not p.relative_to(root).parts[0].startswith('cream-chargers-')]
+originals=[p for p in root.rglob('index.html') if p.relative_to(root).parts[0] not in ('nl','fr','blog') and not p.relative_to(root).parts[0].startswith('cream-chargers-')]
 slugs=['','smartwhip-silver/','cream-deluxe-cylinder/','cream-charger-tanks/','privacy/']
 class Localize(HTMLParser):
  def __init__(self,lang,slug):super().__init__(convert_charrefs=True);self.lang=lang;self.slug=slug;self.out=[];self.tag='';self.in_script=False;self.current_product=next((n for n,s in [('Smartwhip Silver','smartwhip-silver/'),('Cream Deluxe Cylinder','cream-deluxe-cylinder/'),('Cream Charger Tanks','cream-charger-tanks/')] if s==slug),None)
